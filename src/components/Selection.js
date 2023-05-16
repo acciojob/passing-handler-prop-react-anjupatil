@@ -1,21 +1,19 @@
 
-import React from 'react';
+import React,{useState} from 'react';
 
-const Selection = ({ applyColor, nextBackground }) => {
-  const handleClick = () => {
-    applyColor(nextBackground);
-  };
+const Selection=({applyColor})=>{
 
-  return (
-    <div className="selection">
-      <div
-        className="box"
-        style={{ background: nextBackground.background }}
-        onClick={handleClick}
-      ></div>
-      <button onClick={handleClick}>Apply Color</button>
-    </div>
-  );
-};
+  
+
+ 
+
+  return(
+    <button className="fix-box" onClick={applyColor}>
+      Selection
+    </button>
+  )
+
+}
 
 export default Selection;
+
