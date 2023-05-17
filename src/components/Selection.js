@@ -37,7 +37,7 @@ const Selection=(props)=>{
  
 
   return(
-    <button id={id} style={buttonStyle}  datatest-id={colorName} className="fix-box" onClick={handleClick}>
+    <button id={id} style={buttonStyle}  data-testid={colorName} className="fix-box" onClick={handleClick}>
       Selection
     </button>
   )
